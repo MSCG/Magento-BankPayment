@@ -24,6 +24,9 @@ class Phoenix_BankPayment_Model_BankPayment extends Mage_Payment_Model_Method_Ab
     */
     protected $_code = 'bankpayment';
 
+    protected $_canCapture        = TRUE;
+    protected $_canCapturePartial = TRUE;
+
     protected $_formBlockType = 'bankpayment/form';
     protected $_infoBlockType = 'bankpayment/info';
     protected $_accounts;
