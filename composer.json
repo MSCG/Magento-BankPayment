@@ -1,5 +1,5 @@
 {
-    "name": "phoenix-media/magento-bankpayment-mscg",
+    "name": "phoenix-media/magento-bankpayment",
     "description": "PHOENIX MEDIA Bankpayment",
     "type": "magento-module",
     "authors": [
